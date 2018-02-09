@@ -40,7 +40,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.wantsLayer = true;
-        self.layer.backgroundColor = [NSColor colorWithCalibratedRed:162.0f/255.0f green:162.0f/255.0f blue:162.0f/255.0f alpha:1.0f].CGColor;
+        self.layer.backgroundColor = [NSColor colorWithCalibratedRed:135.0f/255.0f green:135.0f/255.0f blue:145.0f/255.0f alpha:1.0f].CGColor;
         self.layer.cornerRadius = frame.size.width * 0.5;
         self.layer.masksToBounds = true;
         
